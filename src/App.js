@@ -33,7 +33,7 @@ class App extends React.Component {
             COVID-19 is affecting 209 countries and territories around the
             globe.
           </p>
-          <p className={styles.note2}>Stay Updated. Stay Home. Stay Safe.</p>
+          <p className={styles.note2}>Stay Home. Stay Safe. Stay Updated.</p>
         </div>
         <Cards data={data} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
